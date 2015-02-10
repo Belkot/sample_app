@@ -45,6 +45,7 @@ gem 'sqlite3', group: [:development, :test]
 group :test do
   gem 'selenium-webdriver'
   gem 'capybara'
+  gem 'factory_girl_rails'
 end
 
 group :production do
