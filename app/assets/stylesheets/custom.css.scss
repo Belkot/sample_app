@@ -33,7 +33,7 @@ html {
 }
 
 body {
-  padding-top: 160px;
+  padding-top: 60px;
 }
 
 section {
@@ -204,8 +204,8 @@ input {
 }
 
 .field_with_errors {
-  @extend .control-group;
-  @extend .error;
+  @extend .form-group;
+  @extend .has-error;
 }
 
 /* Users index */
